@@ -153,8 +153,7 @@ module ActiveRecord
     autoload :DatabaseTasks
     autoload :SQLiteDatabaseTasks, 'active_record/tasks/sqlite_database_tasks'
     autoload :MySQLDatabaseTasks,  'active_record/tasks/mysql_database_tasks'
-    autoload :PostgreSQLDatabaseTasks,
-      'active_record/tasks/postgresql_database_tasks'
+    autoload :PostgreSQLDatabaseTasks, 'active_record/tasks/postgresql_database_tasks'
   end
 
   autoload :TestFixtures, 'active_record/fixtures'
